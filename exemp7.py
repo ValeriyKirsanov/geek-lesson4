@@ -16,7 +16,7 @@ print(insert_full(name_1=str(input("input name")),
 
 from sys import argv
 
-def salary(hours, stav, bounty):
+def salary(hours, stav, pr):
     return int((hours * stav) + pr)
 
 try:
